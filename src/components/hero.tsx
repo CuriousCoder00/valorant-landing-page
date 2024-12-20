@@ -6,9 +6,11 @@ const Hero = () => {
   const hoverAudio = document.getElementById("menu-audio") as HTMLAudioElement;
 
   const handleMouseOverFx = () => {
-    hoverAudio.volume = 1;
-    hoverAudio.currentTime = 4.5;
-    hoverAudio.play();
+    if (hoverAudio !== null) {
+      hoverAudio.volume = 1;
+      hoverAudio.currentTime = 4.5;
+      hoverAudio.play();
+    } else handleMouseOverFx();
   };
 
   return (
