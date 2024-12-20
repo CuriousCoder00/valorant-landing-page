@@ -31,7 +31,7 @@ const AudioOption = () => {
   };
   React.useEffect(() => {
     if (audio !== null && audioState) {
-      audio.volume = 0.001;
+      audio.volume = 0.5;
     }
   }, [audioState]);
   return (

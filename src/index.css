@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Valorant";
-  src: url('./assets/Valorant Font.ttf');
+  src: url("./assets/Valorant Font.ttf");
 }
 
 @layer base {
@@ -73,16 +73,16 @@
 
 @layer components {
   .animate-music1 {
-    animation: music 2s infinite ease-in-out;
+    animation: music 1s 1s infinite ease-in;
   }
   .animate-music2 {
-    animation: music 1s infinite ease-in-out;
+    animation: music 2s 2s infinite ease-in;
   }
   .animate-music3 {
-    animation: music 3s infinite ease-in-out;
+    animation: music 3s 2s infinite ease-in;
   }
   .animate-music4 {
-    animation: music 2s infinite ease-in-out;
+    animation: music 1s 4s infinite ease-in;
   }
 }
 
